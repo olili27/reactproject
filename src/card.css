@@ -1,0 +1,31 @@
+.card-items{
+    padding: 1.5rem;
+    /* text-align: center; */
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin: 1rem 0;
+    /* max-width: 50%; */
+}
+.card-items:nth-child(2){
+    background-color: #eee;
+
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 20% 0 2%;
+}
+
+.card-items> .fas{
+    font-size: 4.5rem;
+    margin-right: 1rem;
+    color: orangered;
+    margin: 0 0 0 30%;
+}
+
+.home>h2{
+    font-size: 20px;
+}

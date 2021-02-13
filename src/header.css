@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.Header{
+    width: 100vw;
+    padding: 1rem;
+    background-color: orangered;
+    min-height: 5rem;
+}
+
+.Header>header{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header>header>h1{
+      margin-bottom: 5px;
+  }
